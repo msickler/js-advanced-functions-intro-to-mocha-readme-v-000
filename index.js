@@ -6,10 +6,14 @@ function sayHey() {
   return 'Hey!'
 }
 
-sayHeyFriend(friend) {
+function sayHeyFriend(friend) {
   return `Hey ${friend}!`
 }
 
-favoriteIceCream(flavor) {
+function favoriteIceCream(flavor) {
   return `I love ${flavor}`
+}
+
+function shouting(string) {
+  return string.toUpperCase
 }
