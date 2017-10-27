@@ -1,3 +1,11 @@
 function theTruth() {
-   debugger 
- }
+  return true 
+}
+
+function sayHey() {
+  return 'Hey!'
+}
+
+sayHeyFriend(friend) {
+  return `Hey ${friend}!`
+}
