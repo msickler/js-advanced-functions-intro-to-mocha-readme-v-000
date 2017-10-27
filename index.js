@@ -1,5 +1,5 @@
 function theTruth() {
-  return true 
+  return true
 }
 
 function sayHey() {
@@ -8,4 +8,8 @@ function sayHey() {
 
 sayHeyFriend(friend) {
   return `Hey ${friend}!`
+}
+
+favoriteIceCream(flavor) {
+  return `I love ${flavor}`
 }
